@@ -5,8 +5,6 @@
 # print(occ)
 
 # ex2
-
-
 # ex3++
 # occ = 0
 # string = input("Enter phrase")
@@ -55,10 +53,27 @@
 # else:
 #     print("The Biggest Number")
 
-# ex6
+# ex6++
+# id = input("Enter the file name: ")
+#
+# if id[0].isupper() and id.endswith(".txt") and id.isalnum():
+#     print("Correct")
+# else:
+#     print("Incorrect")
 # ex7++
 # id = input("Enter the string: ")
 #
 # st = id.split(",")
 
-# ex8
+# ex8++
+# ID = input("Enter the phrase: ")
+# maxChar = ""
+# minChar = ""
+#
+# for i in ID:
+#     if maxChar <= i:
+#         maxChar = i
+#     if minChar >= i:
+#         minChar = i
+#
+# print("MAX: {} MAX: {}", maxChar, minChar)
