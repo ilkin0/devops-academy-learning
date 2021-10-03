@@ -8,7 +8,7 @@ listVar = [["Ali", 22, 180],
 
 
 def custom_sort(el):
-    return el[1]
+    return el[1:]
 
 
 listVar.sort(key=custom_sort)
